@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_dialog_add_comment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/shabnam"
+        android:text="نام :"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/edt_user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/shabnam"
+        android:hint="نام خود را وارد کنید..."
+        android:inputType="text"
+        android:textSize="13sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/shabnam"
+        android:text="متن نظر :"
+        android:textSize="15sp" />
+
+
+    <EditText
+        android:id="@+id/edt_user_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/shabnam"
+        android:hint="نظر خود را وارد کنید..."
+        android:inputType="text"
+        android:textSize="13sp" />
+</LinearLayout>

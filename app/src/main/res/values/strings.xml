@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Mostanad+</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+
+    <string name="reg_name">نام و نام خانوادگی</string>
+    <string name="reg_email">ایمیل</string>
+    <string name="reg_phone">تلفن همراه</string>
+    <string name="mob_msg">برای عضویت، شماره موبایلتو وارد کن…</string>
+    <string name="mob_msg3">برای ورود، شماره موبایلتو وارد کن…</string>
+    <string name="mob_msg2">لطفا کد فعالسازی که برای شما ارسال شده است را وارد نمایید</string>
+    <string name="err_msg_name">نام خود را کامل وارد کنید</string>
+    <string name="err_msg_email">یک ایمیل معتبر وارد کنید</string>
+    <string name="err_msg_phone">شماره موبایل وارد شده صحیح نیست</string>
+    <string name="err_msg_phone2">کد فعالسازی وارد شده صحیح نیست</string>
+    <string name="err_msg_phone3">رمز عبور وارد شده صحیح نیست</string>
+
+    <string name="shareapp">سلام یه اپلیکیشن آموزشی به اسم مستند+ پیدا کردم کلی کلیپ آموزشی با موضوعات مختلف داره اینم لینکشه http://mostanadplus.com میتونی توش عضو بشی و از امکاناتش استفاده کنی. سایتم داره تو سایتشم همه این امکانات هستش اونم می تونی ببینی...</string>
+
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">بعدی</string>
+    <string name="skip">SKIP</string>
+    <string name="start">فهمیدم</string>
+
+    <string name="special_title">عضویت در سرویس مستند+</string>
+
+    <string name="AboutUs">درباره ما</string>
+    <string name="ContactUs">تماس با ما</string>
+    <string name="Terms">قوانین و مقررات</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="home">خانه</string>
+    <string name="categories">دسته بندیها</string>
+    <string name="newest">جدیدترینها</string>
+    <string name="mostview">پربازدیدها</string>
+
+    <string name="empty_category">موردی برای نمایش وجود ندارد</string>
+    <string name="please_wait">لطفا منتظر بمانید …</string>
+
+    <string name="slogan">مستند+، پر از کلیپ</string>
+    <string name="register">عضویت</string>
+    <string name="already_registered">قبلا عضو شده ام!</string>
+
+    <string name="navVersion">nav</string>
+    <string name="avVersion">av</string>
+    <string name="wnavVersion">wnav</string>
+    <string name="adline2Version">ad_line2v</string>
+
+</resources>

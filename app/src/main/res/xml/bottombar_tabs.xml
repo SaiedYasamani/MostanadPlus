@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/tab_home"
+        icon="@drawable/ic_home_black_24dp"
+        title="@string/home" />
+    <tab
+        id="@+id/tab_categories"
+        icon="@drawable/ic_category_black_24dp"
+        title="@string/categories" />
+    <tab
+        id="@+id/tab_newest"
+        icon="@drawable/ic_new_black_24dp"
+        title="@string/newest" />
+    <tab
+        id="@+id/tab_mostview"
+        icon="@drawable/ic_featured_black_24dp"
+        title="@string/mostview" />
+
+
+</tabs>

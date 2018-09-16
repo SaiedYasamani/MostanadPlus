@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="پروفایل" />
+        <item
+            android:id="@+id/download"
+            android:icon="@drawable/ic_download_grey_24dp"
+            android:title="دانلود ها" />
+        <item
+            android:id="@+id/share"
+            android:icon="@drawable/ic_share_grey_24dp"
+            android:title="معرفی به دوستان" />
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/ic_info_black_24dp"
+            android:title="درباره ما" />
+        <item
+            android:id="@+id/rules"
+            android:icon="@drawable/ic_gavel_black_24dp"
+            android:title="قوانین و مقررات" />
+        <item
+            android:id="@+id/contact_us"
+            android:icon="@drawable/ic_phone_black_24dp"
+            android:title="تماس با ما" />
+    </group>
+</menu>

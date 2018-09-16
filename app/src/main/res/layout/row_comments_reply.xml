@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#aeacac">
+
+    <ImageView
+        android:id="@+id/row_comment_image"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:src="@drawable/ic_person_black_24dp" />
+
+    <TextView
+        android:id="@+id/row_comment_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="10dp"
+        android:layout_toLeftOf="@+id/row_comment_image"
+        android:fontFamily="@font/shabnam"
+        android:gravity="right"
+        android:text="مسعود مختاری"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/row_comment_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="11dp"
+        android:layout_toLeftOf="@+id/row_comment_name"
+        android:fontFamily="@font/shabnam"
+
+        android:gravity="right"
+        android:text="12 ساعت"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/row_comment_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/row_comment_time"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="10dp"
+        android:layout_toLeftOf="@+id/row_comment_image"
+        android:fontFamily="@font/shabnam"
+        android:gravity="right"
+        android:text="خنده دار بود"
+        android:textSize="13sp" />
+
+
+    <TextView
+        android:id="@+id/row_report"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/row_comment_comment"
+        android:layout_marginLeft="20dp"
+
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/shabnam"
+        android:text="گزارش"
+        android:textColor="#434343"
+
+        android:textSize="12sp"
+
+        />
+
+    <LinearLayout
+        android:id="@+id/llsepration"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/row_report"
+        android:layout_marginTop="5dp"
+        android:background="#373737"
+        android:orientation="vertical" />
+</RelativeLayout>

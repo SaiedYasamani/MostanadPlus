@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.mostanad.plus">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    ​<uses-permission android:name="android.permission.VIBRATE" />​
+
+    <!--These permissions need for OneSignal and not necessary, so remove them-->
+    <uses-permission
+        android:name="android.permission.WAKE_LOCK"
+        tools:node="remove" />
+    <uses-permission
+        android:name="android.permission.VIBRATE"
+        tools:node="remove" />
+    <uses-permission
+        android:name="android.permission.RECEIVE_BOOT_COMPLETED"
+        tools:node="remove" />
+    <!-- Samsung -->
+    <uses-permission
+        android:name="com.sec.android.provider.badge.permission.READ"
+        tools:node="remove" />
+    <uses-permission
+        android:name="com.sec.android.provider.badge.permission.WRITE"
+        tools:node="remove" />
+    <!-- HTC -->
+    <uses-permission
+        android:name="com.htc.launcher.permission.READ_SETTINGS"
+        tools:node="remove" />
+    <uses-permission
+        android:name="com.htc.launcher.permission.UPDATE_SHORTCUT"
+        tools:node="remove" />
+    <!-- Sony -->
+    <uses-permission
+        android:name="com.sonyericsson.home.permission.BROADCAST_BADGE"
+        tools:node="remove" />
+    <uses-permission
+        android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE"
+        tools:node="remove" />
+    <!-- Apex -->
+    <uses-permission
+        android:name="com.anddoes.launcher.permission.UPDATE_COUNT"
+        tools:node="remove" />
+    <!-- Solid -->
+    <uses-permission
+        android:name="com.majeur.launcher.permission.UPDATE_BADGE"
+        tools:node="remove" />
+    <!-- Huawei -->
+    <uses-permission
+        android:name="com.huawei.android.launcher.permission.CHANGE_BADGE"
+        tools:node="remove" />
+    <uses-permission
+        android:name="com.huawei.android.launcher.permission.READ_SETTINGS"
+        tools:node="remove" />
+    <uses-permission
+        android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS"
+        tools:node="remove" />
+    <!-- ZUK -->
+    <uses-permission
+        android:name="android.permission.READ_APP_BADGE"
+        tools:node="remove" />
+    <!-- OPPO -->
+    <uses-permission
+        android:name="com.oppo.launcher.permission.READ_SETTINGS"
+        tools:node="remove" />
+    <uses-permission
+        android:name="com.oppo.launcher.permission.WRITE_SETTINGS"
+        tools:node="remove" />
+    <!-- EvMe -->
+    <uses-permission
+        android:name="me.everything.badger.permission.BADGE_COUNT_READ"
+        tools:node="remove" />
+    <uses-permission
+        android:name="me.everything.badger.permission.BADGE_COUNT_WRITE"
+        tools:node="remove" />
+
+    <application
+        android:name="com.mostanad.plus.utils.MyApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/learnic_icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.mostanad.plus.activity.SplashActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+
+            <intent-filter>
+                <data android:scheme="mostanadplus" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+            <!-- Branch App Links (optional) -->
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="mostanadplus.com"
+                    android:scheme="https" />
+                <data
+                    android:host="mostanadplus"
+                    android:scheme="https" />
+            </intent-filter>
+            <intent-filter>
+                <data
+                    android:host="open"
+                    android:scheme="mostanadplus" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name="com.mostanad.plus.activity.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mostanad.plus.activity.ForgotPassActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mostanad.plus.activity.RegisterActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.mostanad.plus.activity.ActivateActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.mostanad.plus.activity.ProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mostanad.plus.activity.ProfileEditActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mostanad.plus.activity.DownloadActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mostanad.plus.activity.VideoActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait">
+            ​<meta-data
+            android:name="cheshmakPush"
+            android:value="openActivityOnPush" />​
+        </activity>
+        <activity
+            android:name="com.mostanad.plus.activity.InternetActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mostanad.plus.activity.CategoryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mostanad.plus.activity.PlayVideoActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mostanad.plus.activity.InfoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mostanad.plus.activity.SearchActivity"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="com.onesignal.NotificationOpened.DEFAULT"
+            android:value="DISABLE" />
+        <!--<receiver android:name="com.mostanad.plus.receiver.SmsListener">-->
+        <!--<intent-filter>-->
+        <!--<action android:name="android.provider.Telephony.SMS_RECEIVED" />-->
+        <!--</intent-filter>-->
+        <!--</receiver>-->
+        <meta-data
+            android:name="JW_LICENSE_KEY"
+            android:value="iI+b4khs59ejrA3ba2VQDjBpaKfKpMvHsmtH1GpVARs=" />
+
+        <meta-data
+            android:name="io.branch.sdk.BranchKey"
+            android:value="key_live_gbsLZBd0IZ2WvrMBh9rJohphztdZ6KLQ" />
+
+        <!--pushe-->
+
+        <meta-data
+            android:name="co.ronash.pushe.token"
+            android:value="PUSHE_995893041113" />
+        <meta-data
+            android:name="co.ronash.pushe.cr"
+            android:value="aHR0cDovL2IxNGJjYTEyYjE1ZDQ3OTg5NDg0NjBkYjM5ODgyMjY5OjI1ZjU4NjBmMDE0NDQ2YzU4ODUyNWIwYjViM2ZjZjlmQGNhLnB1c2hlLmlyLzE2MzM4" />
+
+        <!--pushe-->
+
+    </application>
+
+</manifest>

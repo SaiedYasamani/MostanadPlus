@@ -1,0 +1,107 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="#ffffff"
+    card_view:cardCornerRadius="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/row_most_img"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentRight="true"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/row_most_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/row_most_img"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/shabnam"
+            android:gravity="right"
+            android:text="هشت مرد شگفت انگیز"
+            android:textColor="#cc000000"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/row_most_bazdid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/row_most_bazdid2"
+            android:fontFamily="@font/shabnam"
+            android:text="3560"
+            android:textSize="10sp"
+
+            />
+
+        <ImageView
+            android:id="@+id/row_most_bazdid2"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/row_most_like2"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_remove_red_eye_black_24dp"
+
+            />
+
+        <ImageView
+            android:id="@+id/row_most_like"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_heart_grey_24dp" />
+
+        <TextView
+            android:id="@+id/row_most_like2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/row_most_like"
+            android:fontFamily="@font/shabnam"
+            android:text="56"
+            android:textSize="10sp"
+
+            />
+
+        <TextView
+            android:id="@+id/row_most_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/row_most_name"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/shabnam"
+            android:text="5 ماه"
+            android:textSize="10sp"
+
+            />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

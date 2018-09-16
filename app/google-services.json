@@ -1,0 +1,259 @@
+{
+  "project_info": {
+    "project_number": "884176591816",
+    "firebase_url": "https://clipstar-43fa3.firebaseio.com",
+    "project_id": "clipstar-43fa3",
+    "storage_bucket": "clipstar-43fa3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:884176591816:android:ceb72f1a4024647f",
+        "android_client_info": {
+          "package_name": "com.hamavaran.ClipStar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "884176591816-jcbv3ouvdv30pm6bvodgpf3s4erccu02.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwEsoIE_bXsM2pN-m_wv2hnYY_zkBuuNg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:884176591816:android:f6c1a1eabeb5d61b",
+        "android_client_info": {
+          "package_name": "com.hamavaran.fanball"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "884176591816-jcbv3ouvdv30pm6bvodgpf3s4erccu02.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwEsoIE_bXsM2pN-m_wv2hnYY_zkBuuNg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:884176591816:android:b66d3ee459bde7a1",
+        "android_client_info": {
+          "package_name": "com.itparsa.kaktoos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "884176591816-jcbv3ouvdv30pm6bvodgpf3s4erccu02.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwEsoIE_bXsM2pN-m_wv2hnYY_zkBuuNg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:884176591816:android:6baf8fd95b5a599a",
+        "android_client_info": {
+          "package_name": "net.animatoon.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "884176591816-jcbv3ouvdv30pm6bvodgpf3s4erccu02.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwEsoIE_bXsM2pN-m_wv2hnYY_zkBuuNg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:884176591816:android:c3404aac70fb985c",
+        "android_client_info": {
+          "package_name": "com.itparsa.beshnavim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "884176591816-jcbv3ouvdv30pm6bvodgpf3s4erccu02.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwEsoIE_bXsM2pN-m_wv2hnYY_zkBuuNg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:884176591816:android:34bf97c27e08d45f",
+        "android_client_info": {
+          "package_name": "info.nextads.learnic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "884176591816-jcbv3ouvdv30pm6bvodgpf3s4erccu02.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwEsoIE_bXsM2pN-m_wv2hnYY_zkBuuNg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:884176591816:android:a2c761909bdae375",
+        "android_client_info": {
+          "package_name": "ir.cinemanet.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "884176591816-jcbv3ouvdv30pm6bvodgpf3s4erccu02.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwEsoIE_bXsM2pN-m_wv2hnYY_zkBuuNg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:884176591816:android:57376e97ab2a47f7",
+        "android_client_info": {
+          "package_name": "com.mostanad.plus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "884176591816-jcbv3ouvdv30pm6bvodgpf3s4erccu02.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwEsoIE_bXsM2pN-m_wv2hnYY_zkBuuNg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

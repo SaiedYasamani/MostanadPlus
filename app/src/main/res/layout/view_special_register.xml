@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tv_title_activation_special"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/shabnam"
+        android:text="@string/special_title"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="16dp" />
+
+    <TextView
+        android:id="@+id/tv_content_register_special"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0.8"
+        android:fontFamily="@font/shabnam"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="16dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingBottom="0dp"
+        android:paddingTop="8dp">
+
+        <Button
+            android:id="@+id/btn_special_register_cancel"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:background="@color/background_grey"
+            android:fontFamily="@font/shabnam"
+            android:text="انصراف"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <Space
+            android:layout_width="16dp"
+            android:layout_height="wrap_content" />
+
+        <FrameLayout
+            android:layout_width="60dp"
+            android:layout_height="40dp">
+
+            <Button
+                android:id="@+id/btn_special_register_ok"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="@color/background_grey"
+                android:fontFamily="@font/shabnam"
+                android:text="عضویت"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:visibility="visible" />
+
+            <ProgressBar
+                android:id="@+id/progressBar_view_special_register"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:padding="5dp"
+                android:visibility="gone" />
+
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>
